@@ -1,0 +1,8 @@
+date = input("enter the date:")
+day,month,year = date.split("/")
+s= str(day+month+year)
+print(s)
+day=int(day)
+month=int(month)
+year=int(year)
+print(ord('1'))
